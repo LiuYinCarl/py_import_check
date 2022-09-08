@@ -1,0 +1,336 @@
+[INVALID] django/forms/widgets.py:15
+	['MONTHS']
+[INVALID] django/forms/models.py:7
+	['NON_FIELD_ERRORS']
+[INVALID] django/forms/forms.py:9
+	['NON_FIELD_ERRORS']
+[INVALID] django/forms/fields.py:21
+	['FILE_INPUT_CONTRADICTION']
+[INVALID] django/db/backends/sqlite3/introspection.py:7
+	['FieldInfo']
+[INVALID] django/db/backends/sqlite3/introspection.py:8
+	['TableInfo']
+[INVALID] django/db/backends/sqlite3/features.py:8
+	['Database']
+[INVALID] django/db/backends/postgresql/introspection.py:4
+	['FieldInfo']
+[INVALID] django/db/backends/postgresql/introspection.py:5
+	['TableInfo']
+[INVALID] django/db/backends/mysql/introspection.py:7
+	['FieldInfo']
+[INVALID] django/db/backends/mysql/introspection.py:8
+	['TableInfo']
+[INVALID] django/db/backends/oracle/utils.py:3
+	['Database']
+[INVALID] django/db/backends/oracle/operations.py:17
+	['Database']
+[INVALID] django/db/backends/oracle/introspection.py:7
+	['FieldInfo']
+[INVALID] django/db/backends/oracle/introspection.py:8
+	['TableInfo']
+[INVALID] django/db/backends/base/base.py:21
+	['connection_created']
+[INVALID] django/db/migrations/utils.py:5
+	['RECURSIVE_RELATIONSHIP_CONSTANT']
+[INVALID] django/db/migrations/serializer.py:17
+	['COMPILED_REGEX_TYPE']
+[INVALID] django/db/migrations/serializer.py:19
+	['PY311']
+[INVALID] django/db/migrations/state.py:8
+	['apps']
+[INVALID] django/db/migrations/state.py:14
+	['RECURSIVE_RELATIONSHIP_CONSTANT']
+[INVALID] django/db/migrations/state.py:15
+	['DEFAULT_NAMES']
+[INVALID] django/db/migrations/executor.py:1
+	['apps']
+[INVALID] django/db/migrations/autodetector.py:13
+	['COMPILED_REGEX_TYPE']
+[INVALID] django/db/models/query.py:24
+	['LOOKUP_SEP']
+[INVALID] django/db/models/query.py:29
+	['CURSOR', 'GET_ITERATOR_CHUNK_SIZE']
+[INVALID] django/db/models/base.py:11
+	['NON_FIELD_ERRORS']
+[INVALID] django/db/models/base.py:28
+	['LOOKUP_SEP']
+[INVALID] django/db/models/base.py:32
+	['ForeignObjectRel']
+[INVALID] django/db/models/base.py:41
+	['F', 'Q']
+[INVALID] django/db/models/base.py:42
+	['class_prepared', 'post_init', 'post_save', 'pre_init', 'pre_save']
+[INVALID] django/db/models/sql/query.py:21
+	['LOOKUP_SEP']
+[INVALID] django/db/models/sql/query.py:40
+	['INNER', 'LOUTER', 'ORDER_DIR', 'SINGLE']
+[INVALID] django/db/models/sql/query.py:42
+	['AND', 'OR']
+[INVALID] django/db/models/sql/datastructures.py:5
+	['INNER', 'LOUTER']
+[INVALID] django/db/models/sql/compiler.py:9
+	['LOOKUP_SEP']
+[INVALID] django/db/models/sql/compiler.py:14
+	['CURSOR', 'GET_ITERATOR_CHUNK_SIZE', 'MULTI', 'NO_RESULTS', 'ORDER_DIR', 'SINGLE']
+[INVALID] django/db/models/sql/compiler.py:23
+	['AND']
+[INVALID] django/db/models/sql/subqueries.py:6
+	['CURSOR', 'GET_ITERATOR_CHUNK_SIZE', 'NO_RESULTS']
+[INVALID] django/db/models/expressions.py:13
+	['LOOKUP_SEP']
+[INVALID] django/db/models/query_utils.py:15
+	['LOOKUP_SEP']
+[INVALID] django/db/models/constraints.py:10
+	['DEFAULT_DB_ALIAS']
+[INVALID] django/db/models/fields/files.py:8
+	['default_storage']
+[INVALID] django/db/models/fields/reverse_related.py:16
+	['BLANK_CHOICE_DASH']
+[INVALID] django/db/models/fields/related.py:12
+	['LOOKUP_SEP']
+[INVALID] django/db/models/fields/related.py:14
+	['PathInfo']
+[INVALID] django/db/models/options.py:12
+	['PathInfo']
+[INVALID] django/db/models/options.py:17
+	['format_lazy']
+[INVALID] django/http/response.py:17
+	['SimpleCookie']
+[INVALID] django/core/cache/backends/memcached.py:6
+	['DEFAULT_TIMEOUT']
+[INVALID] django/core/cache/backends/db.py:7
+	['DEFAULT_TIMEOUT']
+[INVALID] django/core/cache/backends/filebased.py:10
+	['DEFAULT_TIMEOUT']
+[INVALID] django/core/cache/backends/redis.py:7
+	['DEFAULT_TIMEOUT']
+[INVALID] django/core/cache/backends/dummy.py:3
+	['DEFAULT_TIMEOUT']
+[INVALID] django/core/cache/backends/locmem.py:7
+	['DEFAULT_TIMEOUT']
+[INVALID] django/core/mail/message.py:18
+	['DNS_NAME']
+[INVALID] django/core/mail/backends/smtp.py:9
+	['DNS_NAME']
+[INVALID] django/core/files/storage.py:11
+	['setting_changed']
+[INVALID] django/core/handlers/base.py:9
+	['request_finished']
+[INVALID] django/core/checks/files.py:5
+	['Error', 'Tags', 'register']
+[INVALID] django/core/checks/caches.py:7
+	['Error', 'Tags', 'Warning', 'register']
+[INVALID] django/core/checks/urls.py:5
+	['Error', 'Tags', 'Warning', 'register']
+[INVALID] django/core/checks/security/base.py:4
+	['Error', 'Tags', 'Warning', 'register']
+[INVALID] django/core/checks/security/csrf.py:5
+	['Error', 'Tags', 'Warning', 'register']
+[INVALID] django/core/checks/security/sessions.py:3
+	['Tags', 'Warning', 'register']
+[INVALID] django/core/checks/compatibility/django_4_0.py:3
+	['Error', 'Tags', 'register']
+[INVALID] django/core/checks/database.py:3
+	['Tags', 'register']
+[INVALID] django/core/checks/templates.py:7
+	['Error', 'Tags', 'register']
+[INVALID] django/core/checks/async_checks.py:3
+	['Error', 'Tags', 'register']
+[INVALID] django/core/checks/translation.py:3
+	['language_code_re']
+[INVALID] django/core/checks/translation.py:5
+	['Error', 'Tags', 'register']
+[INVALID] django/core/management/utils.py:10
+	['DEFAULT_LOCALE_ENCODING']
+[INVALID] django/core/management/commands/squashmigrations.py:9
+	['AmbiguityError']
+[INVALID] django/core/management/commands/startproject.py:1
+	['SECRET_KEY_INSECURE_PREFIX']
+[INVALID] django/core/management/commands/migrate.py:11
+	['AmbiguityError']
+[INVALID] django/core/management/commands/makemessages.py:12
+	['NamedTemporaryFile']
+[INVALID] django/core/management/commands/makemessages.py:20
+	['DEFAULT_LOCALE_ENCODING']
+[INVALID] django/core/management/commands/inspectdb.py:6
+	['LOOKUP_SEP']
+[INVALID] django/core/management/commands/check.py:3
+	['registry']
+[INVALID] django/core/management/commands/sqlmigrate.py:4
+	['AmbiguityError']
+[INVALID] django/utils/autoreload.py:19
+	['request_finished']
+[INVALID] django/utils/dateformat.py:17
+	['MONTHS', 'MONTHS_3', 'MONTHS_ALT', 'MONTHS_AP', 'WEEKDAYS', 'WEEKDAYS_ABBR']
+[INVALID] django/utils/translation/trans_real.py:15
+	['setting_changed']
+[INVALID] django/utils/html.py:11
+	['RFC3986_GENDELIMS', 'RFC3986_SUBDELIMS']
+[INVALID] django/contrib/admin/utils.py:8
+	['LOOKUP_SEP']
+[INVALID] django/contrib/admin/checks.py:10
+	['LOOKUP_SEP']
+[INVALID] django/contrib/admin/helpers.py:13
+	['ForeignObjectRel', 'ManyToManyRel']
+[INVALID] django/contrib/admin/views/main.py:11
+	['IS_POPUP_VAR', 'TO_FIELD_VAR']
+[INVALID] django/contrib/admin/templatetags/admin_list.py:12
+	['ALL_VAR', 'IS_POPUP_VAR', 'ORDER_VAR', 'PAGE_VAR', 'SEARCH_VAR']
+[INVALID] django/contrib/admin/options.py:40
+	['LOOKUP_SEP']
+[INVALID] django/contrib/admin/options.py:41
+	['DELETION_FIELD_NAME']
+[INVALID] django/contrib/admin/options.py:58
+	['format_lazy']
+[INVALID] django/contrib/admin/options.py:67
+	['csrf_protect']
+[INVALID] django/contrib/admin/sites.py:23
+	['csrf_protect']
+[INVALID] django/contrib/sites/models.py:5
+	['pre_delete', 'pre_save']
+[INVALID] django/contrib/sites/apps.py:4
+	['post_migrate']
+[INVALID] django/contrib/flatpages/views.py:8
+	['csrf_protect']
+[INVALID] django/contrib/messages/apps.py:4
+	['setting_changed']
+[INVALID] django/contrib/messages/context_processors.py:2
+	['DEFAULT_LEVELS']
+[INVALID] django/contrib/sessions/backends/file.py:8
+	['VALID_KEY_CHARS']
+[INVALID] django/contrib/gis/gdal/feature.py:4
+	['OGRGeomType']
+[INVALID] django/contrib/gis/gdal/geometries.py:52
+	['hex_regex', 'json_regex', 'wkt_regex']
+[INVALID] django/contrib/gis/gdal/layer.py:7
+	['OGRFieldTypes']
+[INVALID] django/contrib/gis/gdal/raster/band.py:6
+	['numpy']
+[INVALID] django/contrib/gis/gdal/raster/band.py:9
+	['GDAL_COLOR_TYPES', 'GDAL_INTEGER_TYPES', 'GDAL_PIXEL_TYPES', 'GDAL_TO_CTYPES']
+[INVALID] django/contrib/gis/gdal/raster/source.py:22
+	['GDAL_RESAMPLE_ALGORITHMS', 'VSI_DELETE_BUFFER_ON_READ', 'VSI_FILESYSTEM_PREFIX', 'VSI_MEM_FILESYSTEM_BASE_PATH', 'VSI_TAKE_BUFFER_OWNERSHIP']
+[INVALID] django/contrib/gis/gdal/raster/source.py:29
+	['SRSException']
+[INVALID] django/contrib/gis/gdal/raster/source.py:30
+	['json_regex']
+[INVALID] django/contrib/gis/gdal/srs.py:34
+	['GDAL_VERSION']
+[INVALID] django/contrib/gis/gdal/prototypes/errcheck.py:8
+	['lgdal']
+[INVALID] django/contrib/gis/gdal/prototypes/geom.py:4
+	['lgdal']
+[INVALID] django/contrib/gis/gdal/prototypes/srs.py:3
+	['GDAL_VERSION', 'lgdal']
+[INVALID] django/contrib/gis/gdal/prototypes/ds.py:9
+	['lgdal']
+[INVALID] django/contrib/gis/forms/widgets.py:6
+	['json_regex']
+[INVALID] django/contrib/gis/db/backends/postgis/base.py:1
+	['NO_DB_ALIAS']
+[INVALID] django/contrib/gis/db/backends/postgis/pgraster.py:5
+	['BANDTYPE_FLAG_HASNODATA', 'BANDTYPE_PIXTYPE_MASK', 'GDAL_TO_POSTGIS', 'GDAL_TO_STRUCT', 'POSTGIS_HEADER_STRUCTURE', 'POSTGIS_TO_GDAL', 'STRUCT_SIZE']
+[INVALID] django/contrib/gis/db/backends/spatialite/adapter.py:2
+	['Database']
+[INVALID] django/contrib/gis/utils/ogrinfo.py:8
+	['GEO_CLASSES']
+[INVALID] django/contrib/gis/geos/coordseq.py:11
+	['CS_PTR']
+[INVALID] django/contrib/gis/geos/coordseq.py:12
+	['numpy']
+[INVALID] django/contrib/gis/geos/geometry.py:9
+	['hex_regex', 'json_regex', 'wkt_regex']
+[INVALID] django/contrib/gis/geos/geometry.py:14
+	['GEOM_PTR']
+[INVALID] django/contrib/gis/geos/linestring.py:6
+	['numpy']
+[INVALID] django/contrib/gis/geos/factory.py:1
+	['hex_regex', 'wkt_regex']
+[INVALID] django/contrib/gis/geos/collections.py:7
+	['GEOM_PTR']
+[INVALID] django/contrib/gis/geos/prototypes/coordseq.py:3
+	['CS_PTR', 'GEOM_PTR']
+[INVALID] django/contrib/gis/geos/prototypes/coordseq.py:4
+	['GEOSException']
+[INVALID] django/contrib/gis/geos/prototypes/predicates.py:7
+	['GEOM_PTR']
+[INVALID] django/contrib/gis/geos/prototypes/io.py:5
+	['GEOM_PTR']
+[INVALID] django/contrib/gis/geos/prototypes/io.py:15
+	['c_uchar_p']
+[INVALID] django/contrib/gis/geos/prototypes/topology.py:7
+	['GEOM_PTR']
+[INVALID] django/contrib/gis/geos/prototypes/geom.py:3
+	['CS_PTR', 'GEOM_PTR']
+[INVALID] django/contrib/gis/geos/prototypes/threadsafe.py:4
+	['CONTEXT_PTR', 'lgeos']
+[INVALID] django/contrib/gis/geos/prototypes/prepared.py:3
+	['GEOM_PTR', 'PREPGEOM_PTR']
+[INVALID] django/contrib/gis/geos/prototypes/misc.py:7
+	['GEOM_PTR']
+[INVALID] django/contrib/gis/geos/polygon.py:3
+	['GEOM_PTR']
+[INVALID] django/contrib/auth/views.py:18
+	['default_token_generator']
+[INVALID] django/contrib/auth/views.py:29
+	['csrf_protect']
+[INVALID] django/contrib/auth/forms.py:5
+	['UNUSABLE_PASSWORD_PREFIX']
+[INVALID] django/contrib/auth/forms.py:7
+	['default_token_generator']
+[INVALID] django/contrib/auth/admin.py:3
+	['IS_POPUP_VAR']
+[INVALID] django/contrib/auth/admin.py:21
+	['csrf_protect']
+[INVALID] django/contrib/auth/apps.py:4
+	['post_migrate']
+[INVALID] django/contrib/auth/apps.py:10
+	['user_logged_in']
+[INVALID] django/contrib/auth/hashers.py:11
+	['setting_changed']
+[INVALID] django/contrib/auth/hashers.py:13
+	['RANDOM_STRING_CHARS']
+[INVALID] django/contrib/staticfiles/finders.py:9
+	['default_storage']
+[INVALID] django/contrib/staticfiles/finders.py:11
+	['empty']
+[INVALID] django/contrib/staticfiles/management/commands/collectstatic.py:5
+	['staticfiles_storage']
+[INVALID] django/contrib/contenttypes/admin.py:4
+	['flatten_fieldsets']
+[INVALID] django/contrib/contenttypes/fields.py:12
+	['ReverseManyToOneDescriptor']
+[INVALID] django/contrib/contenttypes/fields.py:16
+	['PathInfo']
+[INVALID] django/contrib/contenttypes/apps.py:7
+	['post_migrate', 'pre_migrate']
+[INVALID] django/contrib/postgres/utils.py:3
+	['format_lazy']
+[INVALID] django/contrib/postgres/signals.py:8
+	['NO_DB_ALIAS']
+[INVALID] django/contrib/postgres/apps.py:4
+	['setting_changed']
+[INVALID] django/contrib/postgres/apps.py:6
+	['connection_created']
+[INVALID] django/views/defaults.py:10
+	['requires_csrf_token']
+[INVALID] django/templatetags/i18n.py:6
+	['token_kwargs']
+[INVALID] django/middleware/http.py:1
+	['cc_delim_re']
+[INVALID] django/urls/resolvers.py:24
+	['RFC3986_SUBDELIMS']
+[INVALID] django/template/defaulttags.py:16
+	['BLOCK_TAG_END', 'BLOCK_TAG_START', 'COMMENT_TAG_END', 'COMMENT_TAG_START', 'FILTER_SEPARATOR', 'SINGLE_BRACE_END', 'SINGLE_BRACE_START', 'VARIABLE_ATTRIBUTE_SEPARATOR', 'VARIABLE_TAG_END', 'VARIABLE_TAG_START', 'TemplateSyntaxError', 'kwarg_re']
+[INVALID] django/template/loader.py:1
+	['engines']
+[INVALID] django/template/defaultfilters.py:28
+	['VARIABLE_ATTRIBUTE_SEPARATOR']
+[INVALID] django/template/engine.py:8
+	['_builtin_context_processors']
+[INVALID] django/template/loader_tags.py:6
+	['TemplateSyntaxError']
+[INVALID] django/template/backends/dummy.py:8
+	['csrf_input_lazy', 'csrf_token_lazy']
+[INVALID] django/template/autoreload.py:7
+	['autoreload_started', 'file_changed']
