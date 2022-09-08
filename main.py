@@ -1,6 +1,6 @@
 import ast
 import symtable
-import astpretty
+# import astpretty
 import os
 import pprint
 
@@ -55,7 +55,7 @@ def gen_ast(path: str) -> ast.AST:
         src = open(path, "r")
         file_ast = ast.parse(src.read(), "ast.log", "exec")
     except Exception as e:
-        print(path, e)
+        print(path, repr(e))
     return file_ast
 
 
@@ -75,7 +75,27 @@ def parse_import_symbol(path: str) -> dict:
         level = node.level
         lineno = node.lineno
         names = [alias.name for alias in node.names if alias.name not in filter_symbols]
-        if module is None: # deal with form su as "form . import xxx"
+        # deal with form such as:
+        # 1. form . import xxx
+        # 2. from .. import xxx
+        # 3. from .mmm import xxx
+        # 4. from ..mmm import xxx
+        # xxx may be 1. a symbol in __init__.py
+        #            2. a file in the package
+        if module is None:
+            new_names = []
+            tmp = level
+            dir = path
+            while tmp > 0:
+                dir = os.path.abspath(os.path.join(dir, ".."))
+                tmp -= 1
+            for name in names:
+                dirname = os.path.join(dir, name)
+                filename = os.path.join(dir, "{}.py".format(name))
+                # filter names which are module name
+                if not os.path.exists(dirname) and not os.path.exists(filename):
+                    new_names.append(name)
+            names = new_names
             module = "__init__"
         if module in IGNORE_MODULE: # filter ignore modules
             continue
@@ -111,7 +131,7 @@ def check_symbols(path: str, symbols:dict) -> dict:
         src = "".join(src)
         file_symtable = symtable.symtable(src, path, "exec")
     except Exception as e:
-        print(file, e)
+        print(file, repr(e))
     if not file_symtable:
         return {}
 
@@ -125,7 +145,7 @@ def check_symbols(path: str, symbols:dict) -> dict:
                 # print("not namespace: ", name)
                 invalid_symbols.append(name)
         except Exception as e:
-            print(symbols["path"], path, e)
+            print(symbols["path"], path, repr(e))
     return invalid_symbols
  
 
